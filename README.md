@@ -12,6 +12,9 @@ dotenv, express, mongoose, multer, nodemon
 - Connected index.js to Railway.app.
 - Pathway to Railway.app is stored inside of .env which is naturally a hidden file.
 - Creating models for the different types of information to be stored within the database.
+- In auth.js used the Routher method with post method to establish what a newUser is and save that information into the database.
+- Created an app.use method to allow posting newUser json tokens.
+- Tested with Postman and was able to make Nandor the first registered user.
 
 
 
