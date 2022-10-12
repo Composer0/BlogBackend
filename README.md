@@ -18,7 +18,7 @@ dotenv, express, mongoose, multer, nodemon
 
 
 
-### Primary Lesson
+### Additional Lesson
 - Learned more about the appropriate structure for storing files in folders for Express and Node.Js projects.
 - https://dev.to/nermineslimane/how-to-structure-your-express-and-nodejs-project-3bl#:~:text=1%20%2FControllers-%20This%20folder%20would%20contain%20all%20the,would%20also%20lie%20over%20here.%20...%20More%20items
 
