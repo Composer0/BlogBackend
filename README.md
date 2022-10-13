@@ -1,8 +1,8 @@
-# BlogBackend
+# Blog: Backend Portion
 Creating the Server side for the Blog
 
 ### Node modules used:
-dotenv, express, mongoose, multer, nodemon
+*dotenv*, *express*, *mongoose*, *multer*, *nodemon*
 
 - *dotenv* is used to create an .env file that will hide the link to the MongoDB server. In our project, data is being stored on Railway.app.
 - *multer* will be used for store data for avatar images.
