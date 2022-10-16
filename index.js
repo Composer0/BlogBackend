@@ -13,12 +13,15 @@ app.use("/api/auth", authRoute);
 
 console.log("Orion")
 
+// app.get('/', (req, res) => {
+//     res.json({msg: 'Hello world!!!'});
+// });
 
 app.use("/Orion", (req, res) => {
     console.log("This Url is being seen")
 })
 
 
-app.listen("4274", () => {
+app.listen("5001", () => {
     console.log("Backend is running");
 })
