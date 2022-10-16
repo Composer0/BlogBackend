@@ -29,3 +29,7 @@ Creating the Server side for the Blog
 - *middlewares* = contains all the middleware needed
 - *utils* = common functions that would be used repeatedly.
 - *templates* = if you code requires you to send certain emails/HTML code o the client-side, store it in this file.
+
+## Day 2
+- Added bcrypt to create hashed passwords in the event that someone hacks into the blog account. 
+- Deleted Nandor for, the database and added myself into the Railway.app Mongo Database to test and the bcrypt code does indeed work in creating a hashed password.
