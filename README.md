@@ -44,3 +44,7 @@ Creating the Server side for the Blog
 
 ### Additional Lesson
 - Getting better at learning how to read and write try...catch statements as well as learning proper http codes.
+- 200 - Success
+- 401 - Unauthorized
+- 404 - Page not found
+- 500 - Server error
