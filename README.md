@@ -1,4 +1,4 @@
-# Blog: Backend Portion
+# Blog: Backend Portion - Server and API
 Creating the Server side for the Blog
 
 ### Node modules used:
