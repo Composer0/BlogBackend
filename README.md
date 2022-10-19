@@ -41,3 +41,6 @@ Creating the Server side for the Blog
 - Created CRUD functions for users.js. Update, Delete and Read.
 - Post comment left in Delete section. Once Post route is enabled, this will be enabled.
 - Updated index to allow for User route.
+
+### Additional Lesson
+- Getting better at learning how to read and write try...catch statements as well as learning proper http codes.
