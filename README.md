@@ -33,3 +33,11 @@ Creating the Server side for the Blog
 ## Day 2
 - Added bcrypt to create hashed passwords in the event that someone hacks into the blog account. 
 - Deleted Nandor for, the database and added myself into the Railway.app Mongo Database to test and the bcrypt code does indeed work in creating a hashed password.
+
+## Day 3
+- Added login validation post route.
+
+## Day 4
+- Created CRUD functions for users.js. Update, Delete and Read.
+- Post comment left in Delete section. Once Post route is enabled, this will be enabled.
+- Updated index to allow for User route.
