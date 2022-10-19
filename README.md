@@ -41,6 +41,8 @@ Creating the Server side for the Blog
 - Created CRUD functions for users.js. Update, Delete and Read.
 - Post comment left in Delete section. Once Post route is enabled, this will be enabled.
 - Updated index to allow for User route.
+- Created CRUD functionality for posts and categories routes. Now possible through Postman to create posts for users and create categories.
+- Implemented Multer. It is now possible with Postman on desktop to upload a file to the images folder to be stored for users.
 
 ### Additional Lesson
 - Getting better at learning how to read and write try...catch statements as well as learning proper http codes.
@@ -48,3 +50,4 @@ Creating the Server side for the Blog
 - 401 - Unauthorized
 - 404 - Page not found
 - 500 - Server error
+- When trying to upload files with Postman, you have to actually have a local desktop version of it running. The web app will not allow you to upload the file. So now... I have Postman installed on my desktop.
