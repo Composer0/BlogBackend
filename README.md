@@ -51,3 +51,6 @@ Creating the Server side for the Blog
 - 404 - Page not found
 - 500 - Server error
 - When trying to upload files with Postman, you have to actually have a local desktop version of it running. The web app will not allow you to upload the file. So now... I have Postman installed on my desktop.
+
+### Note regarding Categories API CRUD
+- Category CRUD functionality is only intended for Admin and may be reserve to be used outside of the final app through Postman. I will only be having 4 categories created at launch which will be [Life, Code, Music, Food].
