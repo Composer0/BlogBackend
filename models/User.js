@@ -20,7 +20,7 @@ const UserSchema = new mongoose.Schema(
             type:String,
             default: ""
         }
-    }, 
-    {timestanmps: true} //creates updated and added times.
+    },
+    {timestamps: true} //creates updated and added times.
 );
 module.exports = mongoose.model("User", UserSchema);

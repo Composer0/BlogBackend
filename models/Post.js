@@ -25,7 +25,7 @@ const PostSchema = new mongoose.Schema(
             required: false
         }
     },    
-    {timestanmps: true} //creates updated and added times.
+    {timestamps: true} //creates updated and added times.
 );
 
 module.exports = mongoose.model("Post", PostSchema);

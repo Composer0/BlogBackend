@@ -7,7 +7,7 @@ const CategorySchema = new mongoose.Schema(
         required: true
         }
     },
-    {timestanmps: true} //creates updated and added times.
+    {timestamps: true} //creates updated and added times.
 );
 
 module.exports = mongoose.model("Category", CategorySchema);
