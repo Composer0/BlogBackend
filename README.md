@@ -54,3 +54,6 @@ Creating the Server side for the Blog
 
 ### Note regarding Categories API CRUD
 - Category CRUD functionality is only intended for Admin and may be reserve to be used outside of the final app through Postman. I will only be having 4 categories created at launch which will be [Life, Code, Music, Food].
+
+## Day 5
+- Corrected timestamp json token error.
