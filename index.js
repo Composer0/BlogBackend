@@ -38,6 +38,8 @@ const upload = multer({storage:storage});
 app.post("/api/upload", upload.single("file"), (req, res)=>{
     res.status(200).json("file has been uploaded.")
 });
+
+app.use("/images", express.static(path.join(__dirname,"./images")))
 //End of Multer code.
 
 
@@ -55,11 +57,11 @@ app.get('/', (req, res) => {
 //     res.json({msg: 'Hello world!!!'});
 // });
 
-app.use("/Orion", (req, res) => {
+app.use("/", (req, res) => {
     console.log("This Url is being seen")
 })
 
 
-app.listen("4274", () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("Backend is running");
 })
