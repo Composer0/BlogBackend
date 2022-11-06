@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
 // });
 
 app.use("/", (req, res) => {
-    console.log("This Url is being seen")
+    res.send("This Url is being seen")
 })
 
 
