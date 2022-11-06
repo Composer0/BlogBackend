@@ -30,9 +30,9 @@ app.use("/images", express.static(path.join(__dirname, "/images")))
         
         //Multer code being used for picture upload and storage on the server.
         const storage = multer.diskStorage({
-            destination:(req, file, cb) => {
+            destination:(req, res, cb) => {
                 cb(null,"images")
-            }, filename:(req, file,cb) =>{
+            }, filename:(req, res,cb) =>{
                 cb(null, req.body.name)
             },
         }); //cb stands for callback function
