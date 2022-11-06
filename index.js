@@ -48,7 +48,7 @@ app.use("/api/posts", postsRoute);
 app.use("/api/categories", categoriesRoute);
 
 app.get('/', (req, res) => {
-    res.sent("Hello Creators' Blog")
+    res.console.log("Hello Creators' Blog")
 })
 
 // app.get('/', (req, res) => {
