@@ -26,6 +26,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")))
         
         // const MONGO_URL = `mongodb://${process.env.MONGOUSER }:${ process.env.MONGOPASSWORD }@${ process.env.MONGOHOST }:${ process.env.MONGOPORT }`
         mongoose.connect(process.env.MONGO_URL).then(console.log("Connected to Railway.app")).catch((err) => console.log(err));
+        // mongoose.connect(process.env.DATABASE_URL).then(console.log("Connected to Railway.app")).catch((err) => console.log(err));
         // Mongoose always treats creating a new index as true so it is no longer required in the code. If false then you will need to indicate it in the code. Otherwise you are absolutely fine.
         
         //Multer code being used for picture upload and storage on the server.
