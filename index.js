@@ -9,9 +9,9 @@ const postsRoute = require("./routes/posts");
 const categoriesRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path")
-// const cors = require('cors')
+const cors = require('cors')
 
-
+app.use(cors());
 dotenv.config();
 app.use("/images", express.static(path.join(__dirname, "/images")))
 // app.use(express.static(path.resolve(__dirname, "../client/build"))); //Node will serve files from the React app.
@@ -22,7 +22,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")))
         //     res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
         // }) // All other Get requests not handled before will return our React app.
         
-        // app.use(cors());
+
         
         // const MONGO_URL = `mongodb://${process.env.MONGOUSER }:${ process.env.MONGOPASSWORD }@${ process.env.MONGOHOST }:${ process.env.MONGOPORT }`
         mongoose.connect(process.env.MONGO_URL).then(console.log("Connected to Railway.app")).catch((err) => console.log(err));
