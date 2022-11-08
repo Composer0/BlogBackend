@@ -11,7 +11,9 @@ const multer = require("multer");
 const path = require("path")
 const cors = require('cors')
 
-app.use(cors());
+app.use(cors({
+    origin: "*",
+}));
 dotenv.config();
 app.use("/images", express.static(path.join(__dirname, "/images")))
 // app.use(express.static(path.resolve(__dirname, "../client/build"))); //Node will serve files from the React app.
